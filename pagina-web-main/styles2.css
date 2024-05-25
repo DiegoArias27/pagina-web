@@ -1,0 +1,103 @@
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("fondo.jpg"); /* Cambia la ruta por la de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.seccion_titulo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+.seccion_titulo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.seccion_titulo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.seccion_titulo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.seccion_titulo h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    margin: 20px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0f4dbe;
+    box-shadow: 0px 15px 20px rgba(15, 77, 190, 1);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row; /* Cambiamos la dirección del flex a fila */
+    justify-content: center; /* Centramos las imágenes horizontalmente */
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.imagenes img {
+    margin: 10px; /* Ajusta el margen entre las imágenes */
+    width: 250px; /* Ajusta el ancho de las imágenes según sea necesario */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.fotos {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+}
+
+.nombres {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    flex-direction: row;
+}
